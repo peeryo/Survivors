@@ -7,7 +7,10 @@
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -30
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1924.0
 offset_bottom = 1091.0
 
@@ -61,12 +64,3 @@ position = Vector2(554, 321)
 
 [node name="Mob3" parent="." instance=ExtResource("3_vn361")]
 position = Vector2(1225, 193)
-
-[node name="Mob4" parent="." instance=ExtResource("3_vn361")]
-position = Vector2(861, 967)
-
-[node name="Mob5" parent="." instance=ExtResource("3_vn361")]
-position = Vector2(1168, 677)
-
-[node name="Mob6" parent="." instance=ExtResource("3_vn361")]
-position = Vector2(1563, 612)
