@@ -1,8 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715475033
+::res://::1715479525
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
 icon.png::CompressedTexture2D::621515402784007901::1695668179::1715474951::1::::<><>::
 README.md::TextFile::-1::1715472922::0::1::::<><>::
+player.tscn::PackedScene::5830776505363257589::1715477434::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd
+player.gd::GDScript::-1::1715477434::0::1::::<>CharacterBody2D<>::
+pine_tree.tscn::PackedScene::1748025361139161249::1715478879::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
+mob.tscn::PackedScene::7596762401462874946::1715479783::0::1::::<><>::res://mob.gd<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
+mob.gd::GDScript::-1::1715479525::0::1::::<>CharacterBody2D<>::
+survivors_game.tscn::PackedScene::3952685047018955795::1715479016::0::1::::<><>::uid://cpcqbi7ng18xt::::res://player.tscn<>uid://y50ys8usctg0::::res://pine_tree.tscn
 ::res://addons/::1695668179
 ::res://addons/colorpicker_presets/::1695668179
 colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::
@@ -10,9 +16,9 @@ plugin.cfg::TextFile::-1::1695668179::0::1::::<><>::
 README.md::TextFile::-1::1695668179::0::1::::<><>::
 ::res://characters/::1715474951
 ground_shadow.png::CompressedTexture2D::4668018078467755571::1695668179::1715474951::1::::<><>::
-::res://characters/happy_boo/::1715474951
+::res://characters/happy_boo/::1715477434
 happy_boo.gd::GDScript::-1::1695668179::0::1::::<>Node2D<>::
-happy_boo.tscn::PackedScene::31049085407951015::1695668179::0::1::::<><>::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
+happy_boo.tscn::PackedScene::31049085407951015::1715477434::0::1::::<><>::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
 square_body.png::CompressedTexture2D::5512411640973615011::1695668179::1715474951::1::::<><>::
 square_face.png::CompressedTexture2D::6285503871772747319::1695668179::1715474951::1::::<><>::
 square_foot.png::CompressedTexture2D::926853635980280533::1695668179::1715474951::1::::<><>::
