@@ -1,14 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715479525
+::res://::1716955036
+bullet.gd::GDScript::-1::1715526023::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::4631756965659342554::1715741379::0::1::::<><>::res://bullet.gd<>uid://dftkbqwsfd68r::::res://pistol/projectile.png
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
+gun.gd::GDScript::-1::1715526023::0::1::::<>Area2D<>::
+gun.tscn::PackedScene::3288697747897890632::1715741379::0::1::::<><>::uid://cswb5do8rrj7q::::res://pistol/pistol.png<>res://gun.gd
 icon.png::CompressedTexture2D::621515402784007901::1695668179::1715474951::1::::<><>::
-README.md::TextFile::-1::1715472922::0::1::::<><>::
-player.tscn::PackedScene::5830776505363257589::1715477434::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd
-player.gd::GDScript::-1::1715477434::0::1::::<>CharacterBody2D<>::
+mob.gd::GDScript::-1::1715526023::0::1::::<>CharacterBody2D<>::
+mob.tscn::PackedScene::7596762401462874946::1715741379::0::1::::<><>::res://mob.gd<>uid://ogik4s70pgwl::::res://slime.tscn
 pine_tree.tscn::PackedScene::1748025361139161249::1715478879::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
-mob.tscn::PackedScene::7596762401462874946::1715479783::0::1::::<><>::res://mob.gd<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
-mob.gd::GDScript::-1::1715479525::0::1::::<>CharacterBody2D<>::
-survivors_game.tscn::PackedScene::3952685047018955795::1715479016::0::1::::<><>::uid://cpcqbi7ng18xt::::res://player.tscn<>uid://y50ys8usctg0::::res://pine_tree.tscn
+player.gd::GDScript::-1::1715743185::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5830776505363257589::1715741379::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd<>uid://bm4cmvmodegt1::::res://gun.tscn
+README.md::TextFile::-1::1715472922::0::1::::<><>::
+slime.tscn::PackedScene::995535223809565591::1715480329::0::1::::<><>::uid://dvgfmy6vtvjji::::res://characters/slime/slime_body.png<>res://characters/slime/slime.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://c078jrp2yvc4s::::res://characters/slime/slime_face.png<>uid://btbxea1f3vwot::::res://characters/slime/slime_body_hurt.png<>uid://cai2ijnbypqtr::::res://characters/slime/slime_hurt_eyes.png
+survivors_game.gd::GDScript::-1::1715743306::0::1::::<>Node2D<>::
+survivors_game.tscn::PackedScene::3952685047018955795::1716954926::0::1::::<><>::res://survivors_game.gd<>uid://cpcqbi7ng18xt::::res://player.tscn<>uid://y50ys8usctg0::::res://pine_tree.tscn
 ::res://addons/::1695668179
 ::res://addons/colorpicker_presets/::1695668179
 colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::
@@ -26,13 +32,20 @@ square_lower_leg.png::CompressedTexture2D::7651536677184113460::1695668179::1715
 square_modification_stack.tres::SkeletonModificationStack2D::8504717324922621560::1695668179::0::1::::<><>::
 square_ref.png::CompressedTexture2D::4290601870950781964::1695668179::1715474951::1::::<><>::
 square_upper_leg.png::CompressedTexture2D::1148792968243506332::1695668179::1715474951::1::::<><>::
-::res://characters/slime/::1715474951
+::res://characters/slime/::1715480329
 slime.gd::GDScript::-1::1695668179::0::1::::<>Node2D<>::
-slime.tscn::PackedScene::995535223809565591::1695668179::0::1::::<><>::uid://dvgfmy6vtvjji::::res://characters/slime/slime_body.png<>res://characters/slime/slime.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://c078jrp2yvc4s::::res://characters/slime/slime_face.png<>uid://btbxea1f3vwot::::res://characters/slime/slime_body_hurt.png<>uid://cai2ijnbypqtr::::res://characters/slime/slime_hurt_eyes.png
 slime_body.png::CompressedTexture2D::8645940357922743702::1695668179::1715474951::1::::<><>::
 slime_body_hurt.png::CompressedTexture2D::3723476765009385039::1695668179::1715474951::1::::<><>::
 slime_face.png::CompressedTexture2D::6595643196702037820::1695668179::1715474951::1::::<><>::
 slime_hurt_eyes.png::CompressedTexture2D::4791010527445338927::1695668179::1715474951::1::::<><>::
+::res://Mecha-stone Golem 0.1/::1716955036
+::res://Mecha-stone Golem 0.1/ASE files/::1716955036
+::res://Mecha-stone Golem 0.1/PNG sheet/::1716955036
+Character_sheet.png::CompressedTexture2D::8791195754452990437::1716955036::1716955036::1::::<><>::
+::res://Mecha-stone Golem 0.1/weapon PNG/::1716955036
+arm_projectile.png::CompressedTexture2D::1717339691285444154::1716955036::1716955036::1::::<><>::
+arm_projectile_glowing.png::CompressedTexture2D::1001717623231710007::1716955036::1716955036::1::::<><>::
+Laser_sheet.png::CompressedTexture2D::1136315849450257653::1716955036::1716955036::1::::<><>::
 ::res://pistol/::1715474951
 pistol.png::CompressedTexture2D::6081771334990092076::1695668179::1715474951::1::::<><>::
 projectile.png::CompressedTexture2D::7550039277502144023::1695668179::1715474951::1::::<><>::
