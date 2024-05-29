@@ -1,2 +1,6 @@
-res://survivors_game.tscn
 res://golem_boss.tscn
+res://survivors_game.tscn
+res://state.gd
+res://FiniteStateMachine.gd
+res://boss_room.tscn
+res://Idle.gd
